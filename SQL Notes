@@ -1,1 +1,7 @@
 SQL Notes 
+
+Creating a TABLE and INSERTING DATA 
+
+  CREATE TABLE ___ (__ TYPE, ___ TYPE); (ALWAYS add an semicolon " ; " )
+  
+  INSERT INTO ___ VALUES(___,___);
