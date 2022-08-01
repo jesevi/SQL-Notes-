@@ -1,7 +1,15 @@
 SQL Notes 
 
-Creating a TABLE and INSERTING DATA 
+Creating a TABLE and INSERTING data 
 
   CREATE TABLE ___ (__ TYPE, ___ TYPE); (ALWAYS add an semicolon " ; " )
   
   INSERT INTO ___ VALUES(___,___);
+
+How to Select all from table
+
+  SELECT * FROM ___;
+  
+How to use the sum 
+
+  SELECT SUM(__) FROM ___;
