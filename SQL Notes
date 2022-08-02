@@ -10,6 +10,8 @@ How to Select all from table
 
   SELECT * FROM ___;
   
+  SELECT is used everytime you want to query data from a database and * means ALL columns.
+  
 How to use the sum 
 
   SELECT SUM(__) FROM ___;
