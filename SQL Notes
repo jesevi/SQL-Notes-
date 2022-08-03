@@ -15,3 +15,16 @@ How to Select all from table
 How to use the sum 
 
   SELECT SUM(__) FROM ___;
+
+
+/* cross join */
+SELECT * FROM student_grades, students;
+
+/* implicit inner join */
+SELECT * FROM student_grades, students
+    WHERE student_grades.student_id = students.id;
+    
+/* explicit inner join - JOIN */ - BEST PRACTICE 
+SELECT * FROM students
+    JOIN student_grades
+(match) ON students.id = student_grades.student_id;
